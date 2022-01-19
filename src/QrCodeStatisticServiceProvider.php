@@ -2,10 +2,10 @@
 
 namespace zoparga\QrCodeStatistic;
 
+use Illuminate\Routing\Router;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use zoparga\QrCodeStatistic\Commands\QrCodeStatisticCommand;
-use Illuminate\Routing\Router;
 use zoparga\QrCodeStatistic\Http\Middleware\GetQrCodeStatistic;
 
 class QrCodeStatisticServiceProvider extends PackageServiceProvider

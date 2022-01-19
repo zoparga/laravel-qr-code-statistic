@@ -2,7 +2,6 @@
 
 namespace zoparga\QrCodeStatistic\Http\Middleware;
 
-use App\Models\QrCodeStatistic;
 use Closure;
 use zoparga\QrCodeStatistic\Models\QrCodeStatistic as ModelsQrCodeStatistic;
 
