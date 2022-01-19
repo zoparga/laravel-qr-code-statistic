@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace zoparga\QrCodeStatistic\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class QrCodeStatisticCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-qr-code-statistic';
 
     public $description = 'My command';
 

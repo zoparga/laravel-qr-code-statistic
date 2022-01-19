@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "zoparga/laravel-qr-code-statistic",
+    "description": "Want to measure QR code statistic? Create the proper URL, and measure with the help of this package!",
     "keywords": [
-        ":vendor_name",
+        "zoparga",
         "laravel",
-        ":package_slug"
+        "laravel-qr-code-statistic"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/zoparga/laravel-qr-code-statistic",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "zoparga",
+            "email": "zoltan@pappz.hu",
             "role": "Developer"
         }
     ],
@@ -22,25 +22,21 @@
     },
     "require-dev": {
         "nunomaduro/collision": "^5.10",
-        "nunomaduro/larastan": "^1.0",
         "orchestra/testbench": "^6.22",
         "pestphp/pest": "^1.21",
         "pestphp/pest-plugin-laravel": "^1.1",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
         "phpunit/phpunit": "^9.5",
         "spatie/laravel-ray": "^1.26"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "zoparga\\QrCodeStatistic\\": "src",
+            "zoparga\\QrCodeStatistic\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "zoparga\\QrCodeStatistic\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "zoparga\\QrCodeStatistic\\QrCodeStatisticServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "QrCodeStatistic": "zoparga\\QrCodeStatistic\\Facades\\QrCodeStatistic"
             }
         }
     },
