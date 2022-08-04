@@ -15,17 +15,6 @@ php artisan vendor:publishe
 php artisan migrate
 ```
 
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-qr-code-statistic-views"
-```
-
 ## Usage
 
 open your app url with `qr_code_source` and or `qr_code_description` parameters
